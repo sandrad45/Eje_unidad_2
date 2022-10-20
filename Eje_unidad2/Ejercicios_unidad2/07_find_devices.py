@@ -1,5 +1,5 @@
 file = open ("devices.txt", "r")
-bus  = input('Que dispositivo desea buscar? ')
+bus  = input('Nombre de dispositivo:')
 for line in file:
     line = line.strip()
     if bus in line: 
