@@ -5,4 +5,4 @@ for line in file:
     if bus in line: 
         print(line)
     else:
-       print('NO existe ese dispositivo :X')
+       print('no encontrado')
